@@ -1,0 +1,1000 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="2.12.2-Lyon" minimumScale="-4.65661e-10" maximumScale="50050" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+  <edittypes>
+    <edittype widgetv2type="TextEdit" name="KKOD">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="KATEGORI">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="SRIKT">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+  </edittypes>
+  <renderer-v2 attr="KATEGORI" forceraster="0" symbollevels="0" type="categorizedSymbol">
+    <categories>
+      <category render="true" symbol="0" value="Angöringsbrygga" label="Angöringsbrygga"/>
+      <category render="true" symbol="1" value="Badplats" label="Badplats"/>
+      <category render="true" symbol="2" value="Begravningsplats" label="Begravningsplats"/>
+      <category render="true" symbol="3" value="Brädgård" label="Brädgård"/>
+      <category render="true" symbol="4" value="Campingplats" label="Campingplats"/>
+      <category render="true" symbol="5" value="Cistern och silo" label="Cistern och silo"/>
+      <category render="true" symbol="6" value="Dammbyggnad" label="Dammbyggnad"/>
+      <category render="true" symbol="7" value="Dammbyggnad, mindre" label="Dammbyggnad, mindre"/>
+      <category render="true" symbol="8" value="Fotbollsplan" label="Fotbollsplan"/>
+      <category render="true" symbol="9" value="Fyr" label="Fyr"/>
+      <category render="false" symbol="10" value="Gård" label="Gård"/>
+      <category render="true" symbol="11" value="Gästhamn" label="Gästhamn"/>
+      <category render="false" symbol="12" value="Herrgård" label="Herrgård"/>
+      <category render="false" symbol="13" value="Hus, storleksklass 1" label="Hus, storleksklass 1"/>
+      <category render="false" symbol="14" value="Hus, storleksklass 2" label="Hus, storleksklass 2"/>
+      <category render="false" symbol="15" value="Hus, storleksklass 3" label="Hus, storleksklass 3"/>
+      <category render="false" symbol="16" value="Hus, storleksklass 4" label="Hus, storleksklass 4"/>
+      <category render="true" symbol="17" value="Idrottsplats" label="Idrottsplats"/>
+      <category render="false" symbol="18" value="Klockstapel" label="Klockstapel"/>
+      <category render="true" symbol="19" value="Kyrka" label="Kyrka"/>
+      <category render="true" symbol="20" value="Kyrka, mindre" label="Kyrka, mindre"/>
+      <category render="true" symbol="21" value="Mast" label="Mast"/>
+      <category render="true" symbol="22" value="Mindre skjutbana" label="Mindre skjutbana"/>
+      <category render="false" symbol="23" value="Punkt, storleksklass 1, ej specificerad" label="Punkt, storleksklass 1, ej specificerad"/>
+      <category render="false" symbol="24" value="Punkt, storleksklass 2, ej specificerad" label="Punkt, storleksklass 2, ej specificerad"/>
+      <category render="true" symbol="25" value="Skjutbana" label="Skjutbana"/>
+      <category render="true" symbol="26" value="Skorsten" label="Skorsten"/>
+      <category render="false" symbol="27" value="Slott" label="Slott"/>
+      <category render="true" symbol="28" value="Slussport" label="Slussport"/>
+      <category render="false" symbol="29" value="Såg, 'flagga' höger" label="Såg, 'flagga' höger"/>
+      <category render="false" symbol="30" value="Såg, 'flagga' vänster" label="Såg, 'flagga' vänster"/>
+      <category render="true" symbol="31" value="Torn" label="Torn"/>
+      <category render="false" symbol="32" value="Travbana" label="Travbana"/>
+      <category render="true" symbol="33" value="Vindkraftverk" label="Vindkraftverk"/>
+      <category render="true" symbol="34" value="Vindskydd" label="Vindskydd"/>
+      <category render="true" symbol="35" value="Väderkvarn" label="Väderkvarn"/>
+    </categories>
+    <symbols>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="229,126,22,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="bryggangoring.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="72,201,152,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="badplats.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="10">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="50,212,230,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus_gard.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="11">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="142,206,72,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="gasthamn.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="12">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="214,135,117,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus_herrgard.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="13">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="16,236,189,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus3.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="14">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="116,46,221,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus2.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="15">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="212,49,46,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus1.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="16">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="110,236,42,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus1.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="17">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="207,64,226,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="idrott_anlaggning.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="18">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="33,132,207,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="19">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="207,126,138,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="kyrka.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="164,209,74,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="begravningsplats.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="20">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="211,70,160,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="kyrka_liten.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="21">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="215,38,121,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="mast.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="22">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="93,82,220,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="idrott_skjutbana_liten.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="23">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="128,223,171,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="24">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="80,237,44,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="25">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="172,117,213,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="idrott_skjutbana.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="26">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="209,236,73,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="skorsten.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="27">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="125,93,227,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="hus_slott.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="28">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="240,119,59,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="slussport.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="29">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="236,51,199,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="34,228,60,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="bradgard.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="30">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="58,207,103,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="31">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="24,40,213,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="torn.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="32">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="85,239,232,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="33">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="27,109,223,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="vindkraft.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="34">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="207,65,200,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="vindskydd1.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="35">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="58,238,52,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="vaderkvarn.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="175,107,201,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="camping.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="202,151,41,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="cistern.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="223,29,88,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="dammbyggnad.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="7">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="75,115,235,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="dammbyggnad_liten.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="8">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="42,165,210,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="idrott_fotbollsplan.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="9">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="236,221,143,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="fyr.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </symbols>
+    <source-symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="164,91,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+    </source-symbol>
+    <rotation/>
+    <sizescale scalemethod="diameter"/>
+  </renderer-v2>
+  <labeling type="simple"/>
+  <customproperties>
+    <property key="labeling" value="pal"/>
+    <property key="labeling/addDirectionSymbol" value="false"/>
+    <property key="labeling/angleOffset" value="0"/>
+    <property key="labeling/blendMode" value="0"/>
+    <property key="labeling/bufferBlendMode" value="0"/>
+    <property key="labeling/bufferColorA" value="255"/>
+    <property key="labeling/bufferColorB" value="255"/>
+    <property key="labeling/bufferColorG" value="255"/>
+    <property key="labeling/bufferColorR" value="255"/>
+    <property key="labeling/bufferDraw" value="false"/>
+    <property key="labeling/bufferJoinStyle" value="64"/>
+    <property key="labeling/bufferNoFill" value="false"/>
+    <property key="labeling/bufferSize" value="1"/>
+    <property key="labeling/bufferSizeInMapUnits" value="false"/>
+    <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+    <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/bufferTransp" value="0"/>
+    <property key="labeling/centroidInside" value="false"/>
+    <property key="labeling/centroidWhole" value="false"/>
+    <property key="labeling/decimals" value="3"/>
+    <property key="labeling/displayAll" value="false"/>
+    <property key="labeling/dist" value="0"/>
+    <property key="labeling/distInMapUnits" value="false"/>
+    <property key="labeling/distMapUnitMaxScale" value="0"/>
+    <property key="labeling/distMapUnitMinScale" value="0"/>
+    <property key="labeling/drawLabels" value="false"/>
+    <property key="labeling/enabled" value="false"/>
+    <property key="labeling/fieldName" value=""/>
+    <property key="labeling/fitInPolygonOnly" value="false"/>
+    <property key="labeling/fontCapitals" value="0"/>
+    <property key="labeling/fontFamily" value="GSDSymbolsTerrängkartan"/>
+    <property key="labeling/fontItalic" value="false"/>
+    <property key="labeling/fontLetterSpacing" value="0"/>
+    <property key="labeling/fontLimitPixelSize" value="false"/>
+    <property key="labeling/fontMaxPixelSize" value="10000"/>
+    <property key="labeling/fontMinPixelSize" value="3"/>
+    <property key="labeling/fontSize" value="7.8"/>
+    <property key="labeling/fontSizeInMapUnits" value="false"/>
+    <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+    <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/fontStrikeout" value="false"/>
+    <property key="labeling/fontUnderline" value="false"/>
+    <property key="labeling/fontWeight" value="50"/>
+    <property key="labeling/fontWordSpacing" value="0"/>
+    <property key="labeling/formatNumbers" value="false"/>
+    <property key="labeling/isExpression" value="true"/>
+    <property key="labeling/labelOffsetInMapUnits" value="true"/>
+    <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+    <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/labelPerPart" value="false"/>
+    <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+    <property key="labeling/limitNumLabels" value="false"/>
+    <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+    <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+    <property key="labeling/maxNumLabels" value="2000"/>
+    <property key="labeling/mergeLines" value="false"/>
+    <property key="labeling/minFeatureSize" value="0"/>
+    <property key="labeling/multilineAlign" value="0"/>
+    <property key="labeling/multilineHeight" value="1"/>
+    <property key="labeling/namedStyle" value="Normal"/>
+    <property key="labeling/obstacle" value="true"/>
+    <property key="labeling/obstacleFactor" value="1"/>
+    <property key="labeling/obstacleType" value="0"/>
+    <property key="labeling/placeDirectionSymbol" value="0"/>
+    <property key="labeling/placement" value="0"/>
+    <property key="labeling/placementFlags" value="10"/>
+    <property key="labeling/plussign" value="false"/>
+    <property key="labeling/preserveRotation" value="true"/>
+    <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+    <property key="labeling/priority" value="5"/>
+    <property key="labeling/quadOffset" value="4"/>
+    <property key="labeling/repeatDistance" value="0"/>
+    <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+    <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+    <property key="labeling/repeatDistanceUnit" value="1"/>
+    <property key="labeling/reverseDirectionSymbol" value="false"/>
+    <property key="labeling/rightDirectionSymbol" value=">"/>
+    <property key="labeling/scaleMax" value="10000000"/>
+    <property key="labeling/scaleMin" value="1"/>
+    <property key="labeling/scaleVisibility" value="false"/>
+    <property key="labeling/shadowBlendMode" value="6"/>
+    <property key="labeling/shadowColorB" value="0"/>
+    <property key="labeling/shadowColorG" value="0"/>
+    <property key="labeling/shadowColorR" value="0"/>
+    <property key="labeling/shadowDraw" value="false"/>
+    <property key="labeling/shadowOffsetAngle" value="135"/>
+    <property key="labeling/shadowOffsetDist" value="1"/>
+    <property key="labeling/shadowOffsetGlobal" value="true"/>
+    <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+    <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/shadowOffsetUnits" value="1"/>
+    <property key="labeling/shadowRadius" value="1.5"/>
+    <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+    <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+    <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+    <property key="labeling/shadowRadiusUnits" value="1"/>
+    <property key="labeling/shadowScale" value="100"/>
+    <property key="labeling/shadowTransparency" value="30"/>
+    <property key="labeling/shadowUnder" value="0"/>
+    <property key="labeling/shapeBlendMode" value="0"/>
+    <property key="labeling/shapeBorderColorA" value="255"/>
+    <property key="labeling/shapeBorderColorB" value="128"/>
+    <property key="labeling/shapeBorderColorG" value="128"/>
+    <property key="labeling/shapeBorderColorR" value="128"/>
+    <property key="labeling/shapeBorderWidth" value="0"/>
+    <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+    <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeBorderWidthUnits" value="1"/>
+    <property key="labeling/shapeDraw" value="false"/>
+    <property key="labeling/shapeFillColorA" value="255"/>
+    <property key="labeling/shapeFillColorB" value="255"/>
+    <property key="labeling/shapeFillColorG" value="255"/>
+    <property key="labeling/shapeFillColorR" value="255"/>
+    <property key="labeling/shapeJoinStyle" value="64"/>
+    <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+    <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeOffsetUnits" value="1"/>
+    <property key="labeling/shapeOffsetX" value="0"/>
+    <property key="labeling/shapeOffsetY" value="0"/>
+    <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+    <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeRadiiUnits" value="1"/>
+    <property key="labeling/shapeRadiiX" value="0"/>
+    <property key="labeling/shapeRadiiY" value="0"/>
+    <property key="labeling/shapeRotation" value="0"/>
+    <property key="labeling/shapeRotationType" value="0"/>
+    <property key="labeling/shapeSVGFile" value=""/>
+    <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+    <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeSizeType" value="0"/>
+    <property key="labeling/shapeSizeUnits" value="1"/>
+    <property key="labeling/shapeSizeX" value="0"/>
+    <property key="labeling/shapeSizeY" value="0"/>
+    <property key="labeling/shapeTransparency" value="0"/>
+    <property key="labeling/shapeType" value="0"/>
+    <property key="labeling/textColorA" value="255"/>
+    <property key="labeling/textColorB" value="0"/>
+    <property key="labeling/textColorG" value="0"/>
+    <property key="labeling/textColorR" value="0"/>
+    <property key="labeling/textTransp" value="0"/>
+    <property key="labeling/upsidedownLabels" value="0"/>
+    <property key="labeling/wrapChar" value=""/>
+    <property key="labeling/xOffset" value="0"/>
+    <property key="labeling/yOffset" value="0"/>
+    <property key="variableNames" value="_fields_"/>
+    <property key="variableValues" value=""/>
+  </customproperties>
+  <blendMode>0</blendMode>
+  <featureBlendMode>0</featureBlendMode>
+  <layerTransparency>0</layerTransparency>
+  <displayfield>KKOD</displayfield>
+  <label>0</label>
+  <labelattributes>
+    <label fieldname="" text="Label"/>
+    <family fieldname="" name="MS Shell Dlg 2"/>
+    <size fieldname="" units="pt" value="12"/>
+    <bold fieldname="" on="0"/>
+    <italic fieldname="" on="0"/>
+    <underline fieldname="" on="0"/>
+    <strikeout fieldname="" on="0"/>
+    <color fieldname="" red="0" blue="0" green="0"/>
+    <x fieldname=""/>
+    <y fieldname=""/>
+    <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+    <angle fieldname="" value="0" auto="0"/>
+    <alignment fieldname="" value="center"/>
+    <buffercolor fieldname="" red="255" blue="255" green="255"/>
+    <buffersize fieldname="" units="pt" value="1"/>
+    <bufferenabled fieldname="" on=""/>
+    <multilineenabled fieldname="" on=""/>
+    <selectedonly on=""/>
+  </labelattributes>
+  <SingleCategoryDiagramRenderer diagramType="Pie">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+      <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" color="#000000" label=""/>
+    </DiagramCategory>
+  </SingleCategoryDiagramRenderer>
+  <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
+  <editform>.</editform>
+  <editforminit/>
+  <featformsuppress>0</featformsuppress>
+  <annotationform>.</annotationform>
+  <editorlayout>generatedlayout</editorlayout>
+  <excludeAttributesWMS/>
+  <excludeAttributesWFS/>
+  <attributeactions/>
+  <conditionalstyles>
+    <rowstyles/>
+    <fieldstyles/>
+  </conditionalstyles>
+</qgis>

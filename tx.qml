@@ -1589,7 +1589,7 @@
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="25050" description="6pt" filter=" &quot;KKOD&quot; IN ('1','14','27','42','52','61','71','73','74','75','76','79','82','91','182','192')">
+      <rule scalemaxdenom="25050" description="6pt" filter=" &quot;KKOD&quot; IN ('1','14','27','35','42','52','61','71','73','74','75','76','79','82','91','182','192')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="6" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -1664,7 +1664,7 @@
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="100050" description="12pt" filter=" &quot;KKOD&quot; IN ('6','46','56','65','86','186','196')">
+      <rule scalemaxdenom="100050" description="12pt" filter=" &quot;KKOD&quot; IN ('6','34','46','56','65','86','186','196')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="12" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>

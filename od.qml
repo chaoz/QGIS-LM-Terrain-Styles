@@ -10,10 +10,7 @@
   </edittypes>
   <renderer-v2 attr="KATEGORI" forceraster="0" symbollevels="0" type="categorizedSymbol">
     <categories>
-      <category render="true" symbol="0" value="Höjdkurva, 25 m" label="Höjdkurva, 25 m"/>
-      <category render="true" symbol="1" value="Höjdkurva, 5m" label="Höjdkurva, 5m"/>
-      <category render="true" symbol="2" value="Skärning" label="Skärning"/>
-      <category render="true" symbol="3" value="Sänka/gropkurva, 5m" label="Sänka/gropkurva, 5m"/>
+      <category render="true" symbol="0" value="Djupkurva 3 eller 6 m" label="Djupkurva 3 eller 6 m"/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -24,7 +21,7 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="255,127,0,255"/>
+          <prop k="line_color" v="31,120,180,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="0.26"/>
           <prop k="line_width_unit" v="MM"/>
@@ -33,131 +30,6 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="1">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="255,127,0,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.26"/>
-          <prop k="line_width_unit" v="MM"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="2">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="255,127,0,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="1"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-        <layer pass="0" class="MarkerLine" locked="0">
-          <prop k="interval" v="5"/>
-          <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="interval_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_along_line" v="0"/>
-          <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_along_line_unit" v="MM"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="placement" v="interval"/>
-          <prop k="rotate" v="1"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@2@1">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="255,127,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="line"/>
-              <prop k="offset" v="0,0.6"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="255,127,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MapUnit"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="3">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="255,127,0,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="1"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-        <layer pass="0" class="MarkerLine" locked="0">
-          <prop k="interval" v="10"/>
-          <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="interval_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_along_line" v="0"/>
-          <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_along_line_unit" v="MM"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="placement" v="interval"/>
-          <prop k="rotate" v="1"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@3@1">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="255,127,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="line"/>
-              <prop k="offset" v="0,0.6"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="255,127,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MapUnit"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
         </layer>
       </symbol>
     </symbols>
@@ -170,7 +42,7 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="146,95,146,255"/>
+          <prop k="line_color" v="89,253,144,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="0.26"/>
           <prop k="line_width_unit" v="MM"/>
@@ -182,6 +54,8 @@
         </layer>
       </symbol>
     </source-symbol>
+    <colorramp type="randomcolors" name="[source]"/>
+    <invertedcolorramp value="0"/>
     <rotation/>
     <sizescale scalemethod="diameter"/>
     <effect enabled="1" type="effectStack">
@@ -200,10 +74,7 @@
       <effect type="outerGlow">
         <prop k="blend_mode" v="0"/>
         <prop k="blur_level" v="3"/>
-        <prop k="color1" v="0,0,255,255"/>
-        <prop k="color2" v="0,255,0,255"/>
         <prop k="color_type" v="0"/>
-        <prop k="discrete" v="0"/>
         <prop k="draw_mode" v="2"/>
         <prop k="enabled" v="0"/>
         <prop k="single_color" v="255,255,255,255"/>
@@ -232,15 +103,15 @@
       </effect>
       <effect type="dropShadow">
         <prop k="blend_mode" v="0"/>
-        <prop k="blur_level" v="3"/>
+        <prop k="blur_level" v="5"/>
         <prop k="color" v="0,0,0,255"/>
         <prop k="draw_mode" v="2"/>
         <prop k="enabled" v="0"/>
-        <prop k="offset_angle" v="135"/>
-        <prop k="offset_distance" v="5"/>
-        <prop k="offset_unit" v="MapUnit"/>
+        <prop k="offset_angle" v="-45"/>
+        <prop k="offset_distance" v="3"/>
+        <prop k="offset_unit" v="MM"/>
         <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="transparency" v="0.291"/>
+        <prop k="transparency" v="0.3"/>
       </effect>
     </effect>
   </renderer-v2>
@@ -393,7 +264,7 @@
     <property key="variableNames" value="_fields_"/>
     <property key="variableValues" value=""/>
   </customproperties>
-  <blendMode>6</blendMode>
+  <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>50</layerTransparency>
   <displayfield>KKOD</displayfield>
