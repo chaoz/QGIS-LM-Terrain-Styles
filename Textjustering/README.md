@@ -53,4 +53,4 @@ Den parameter som vi vill använda är TJUST, klicka OK så är allt klart
 ![alt tag](./7.png)
 
 För att kontrollera vilken funktion som används kan man se detta som "Current: ..." 
-![alt tag](./18.png)
+![alt tag](./8.png)
