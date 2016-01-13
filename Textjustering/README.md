@@ -22,7 +22,7 @@ Exempel:
 Om TJUST = 7 (vänstra toppen) i LM's fil så hamnar istället texten centrerat under punkten.
 För att lösa detta kan man skriva en enkel funktion för att översätta mellan LM's och QGIS definition
  
-![alt tag](https://raw.githubusercontent.com/chaoz/QGIS-LM-Terrain-Styles/master/Preview/1.png)
+![alt tag](./1.png)
 ![alt tag](https://raw.githubusercontent.com/chaoz/QGIS-LM-Terrain-Styles/master/Preview/2.png)
 ![alt tag](https://raw.githubusercontent.com/chaoz/QGIS-LM-Terrain-Styles/master/Preview/3.png)
 ![alt tag](https://raw.githubusercontent.com/chaoz/QGIS-LM-Terrain-Styles/master/Preview/4.png)
