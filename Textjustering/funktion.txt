@@ -1,0 +1,26 @@
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args=1, group='Custom')
+def TextJust(TJUST, feature, parent):
+	"""
+	Ändra TJUST kvadrant från 
+	789
+	456
+	123
+	till
+	012
+	345
+	678
+	"""
+	return {
+		7:0,
+		8:1,
+		9:2,
+		4:3,
+		5:4,
+		6:5,
+		1:6,
+		2:7,
+		3:8,
+	}[TJUST[0]]

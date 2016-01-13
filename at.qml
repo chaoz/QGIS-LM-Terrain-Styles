@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.12.2-Lyon" minimumScale="-4.65661e-10" maximumScale="50050" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.12.2-Lyon" minimumScale="0" maximumScale="50050" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="KKOD">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -76,14 +76,12 @@
         </layer>
       </symbol>
     </source-symbol>
-    <colorramp type="randomcolors" name="[source]"/>
-    <invertedcolorramp value="0"/>
     <rotation/>
     <sizescale scalemethod="diameter"/>
   </renderer-v2>
   <labeling type="rule-based">
     <rules>
-      <rule scalemaxdenom="25050" description="5pt" filter=" &quot;KKOD&quot; IN ('51')">
+      <rule scalemaxdenom="25050" description="5pt" filter=" &quot;KKOD&quot; IN ('51')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="5" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -94,7 +92,7 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
@@ -109,11 +107,11 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="50050" description="7pt" filter=" &quot;KKOD&quot; IN ('2','17','24','28','43','53','62','72','78','83','183','193')">
+      <rule scalemaxdenom="50050" description="7pt" filter=" &quot;KKOD&quot; IN ('2','17','24','28','43','53','62','72','78','83','183','193')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="7" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -124,11 +122,11 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="100050" description="8pt" filter=" &quot;KKOD&quot; IN ('3','16','44','54','63','84','184','194')">
+      <rule scalemaxdenom="100050" description="8pt" filter=" &quot;KKOD&quot; IN ('3','16','44','54','63','84','184','194')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="8" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -139,11 +137,11 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="100050" description="9pt" filter=" &quot;KKOD&quot; IN ('4','15','18','25')">
+      <rule scalemaxdenom="100050" description="9pt" filter=" &quot;KKOD&quot; IN ('4','15','18','25')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="9" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -154,11 +152,11 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="100050" description="10pt" filter=" &quot;KKOD&quot; IN ('5','45','55','64','85','185','195')">
+      <rule scalemaxdenom="100050" description="10pt" filter=" &quot;KKOD&quot; IN ('5','45','55','64','85','185','195')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="10" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -169,7 +167,7 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
@@ -184,11 +182,11 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
-      <rule scalemaxdenom="250050" description="14pt" filter=" &quot;KKOD&quot; IN ('7','47','57','87','187','197')">
+      <rule scalemaxdenom="250050" description="14pt" filter=" &quot;KKOD&quot; IN ('7','47','57','87','187','197')" scalemindenom="1000">
         <settings>
           <text-style fontItalic="0" fontFamily="Gill Sans MT" fontLetterSpacing="0" fontUnderline="0" fontSizeMapUnitMaxScale="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeMapUnitMinScale="0" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSize="14" fieldName="TEXT" namedStyle="Normal" fontWordSpacing="0"/>
           <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -199,7 +197,7 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
@@ -214,7 +212,7 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
@@ -229,7 +227,7 @@
           <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
           <data-defined>
             <Rotation expr="" field="TRIKT" active="true" useExpr="false"/>
-            <OffsetQuad expr="" field="TJUST" active="true" useExpr="false"/>
+            <OffsetQuad expr="TextJust(TJUST)" field="TJUST" active="true" useExpr="true"/>
           </data-defined>
         </settings>
       </rule>
@@ -410,7 +408,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
