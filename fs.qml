@@ -13,8 +13,8 @@
   </edittypes>
   <renderer-v2 attr="KATEGORI" forceraster="0" symbollevels="0" type="categorizedSymbol">
     <categories>
-      <category render="false" symbol="0" value="Bebyggelselämning" label="Bebyggelselämning"/>
-      <category render="false" symbol="1" value="Byggnadsminne, upplysningssymbol" label="Byggnadsminne, upplysningssymbol"/>
+      <category render="true" symbol="0" value="Bebyggelselämning" label="Bebyggelselämning"/>
+      <category render="true" symbol="1" value="Byggnadsminne, upplysningssymbol" label="Byggnadsminne, upplysningssymbol"/>
       <category render="true" symbol="2" value="Fornlämning, mindre" label="Fornlämning, mindre"/>
       <category render="true" symbol="3" value="Fornlämning, upplysningssymbol" label="Fornlämning, upplysningssymbol"/>
       <category render="true" symbol="4" value="Gruvhål" label="Gruvhål"/>
@@ -44,7 +44,7 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
-        <layer pass="0" class="SimpleMarker" locked="0">
+        <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="201,158,112,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
@@ -53,7 +53,6 @@
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
@@ -69,7 +68,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="216,96,194,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="fornlamning.svg"/>
+          <prop k="name" v="cistern.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -78,7 +77,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -126,7 +125,7 @@
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
         <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
+          <prop k="angle" v="270"/>
           <prop k="color" v="188,137,235,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="milstolpe.svg"/>
@@ -386,7 +385,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
